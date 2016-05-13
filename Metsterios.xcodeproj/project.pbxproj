@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C423448DAE77A40B0439E3E /* Pods_Metsterios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8F79F37FC8E536CB47F8F6 /* Pods_Metsterios.framework */; };
+		570048B21CE5671000CCC971 /* MapviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570048B11CE5671000CCC971 /* MapviewTableViewCell.swift */; };
+		5747C4A21CCC08AC0031F541 /* Logoutbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747C4A11CCC08AC0031F541 /* Logoutbutton.swift */; };
+		5747C4A41CCC0F9B0031F541 /* EventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5747C4A31CCC0F9B0031F541 /* EventViewController.xib */; };
+		5747C4A61CCC13720031F541 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747C4A51CCC13720031F541 /* EventViewController.swift */; };
+		5747C4AA1CCC20CE0031F541 /* Eventinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747C4A91CCC20CE0031F541 /* Eventinfo.swift */; };
+		5747C4AC1CCC4DCA0031F541 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747C4AB1CCC4DCA0031F541 /* PlaceTableViewCell.swift */; };
+		574811421CD1C7AC00CC8F25 /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574811411CD1C7AC00CC8F25 /* SearchButton.swift */; };
+		576AEB6E1CCEF48600D74F04 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AEB6D1CCEF48600D74F04 /* BackButton.swift */; };
+		57C3A0AF1CC2D81500D5E335 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C3A0AD1CC2D81500D5E335 /* MapViewController.swift */; };
+		57C3A0B01CC2D81500D5E335 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C3A0AE1CC2D81500D5E335 /* MapViewController.xib */; };
+		57DA91EE1CC754670021834A /* userevents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DA91ED1CC754670021834A /* userevents.swift */; };
+		57EFBA761CE03F3200AA8E59 /* findpeopleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EFBA751CE03F3200AA8E59 /* findpeopleButton.swift */; };
+		57EFBA781CE03F4F00AA8E59 /* findplacesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EFBA771CE03F4F00AA8E59 /* findplacesButton.swift */; };
+		690288711CA7F2F2009C5B16 /* MainTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690288701CA7F2F2009C5B16 /* MainTextField.swift */; };
+		690288731CA7F7F9009C5B16 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690288721CA7F7F9009C5B16 /* SubmitButton.swift */; };
+		690288751CA87F48009C5B16 /* MainLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690288741CA87F48009C5B16 /* MainLabel.swift */; };
+		6929DB601CAC6ECB00867BE3 /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6929DB5F1CAC6ECB00867BE3 /* SelectionButton.swift */; };
+		695AEE761CAE1325006B4D6D /* RequestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AEE751CAE1325006B4D6D /* RequestInfo.swift */; };
+		6964A96A1CBB04190090EC4C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964A9691CBB04190090EC4C /* Place.swift */; };
+		6964A96C1CBB230C0090EC4C /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964A96B1CBB230C0090EC4C /* EventTableViewCell.swift */; };
+		6964A96E1CBB43860090EC4C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6964A96D1CBB43860090EC4C /* MapKit.framework */; };
+		69796BA21CAE416500A6378B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69796BA11CAE416500A6378B /* Users.swift */; };
+		69796BA61CAFBF2300A6378B /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69796BA51CAFBF2300A6378B /* BaseVC.swift */; };
+		69DE74EB1CA7CC0600AA35D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE74EA1CA7CC0600AA35D2 /* AppDelegate.swift */; };
+		69DE74ED1CA7CC0600AA35D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE74EC1CA7CC0600AA35D2 /* LoginViewController.swift */; };
+		69DE74F01CA7CC0600AA35D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DE74EE1CA7CC0600AA35D2 /* Main.storyboard */; };
+		69DE74F21CA7CC0600AA35D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DE74F11CA7CC0600AA35D2 /* Assets.xcassets */; };
+		69DE74F51CA7CC0600AA35D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DE74F31CA7CC0600AA35D2 /* LaunchScreen.storyboard */; };
+		69DE75001CA7CC0600AA35D2 /* MetsteriosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE74FF1CA7CC0600AA35D2 /* MetsteriosTests.swift */; };
+		69DE750B1CA7CC0600AA35D2 /* MetsteriosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE750A1CA7CC0600AA35D2 /* MetsteriosUITests.swift */; };
+		69DE75191CA7CDC700AA35D2 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE75181CA7CDC700AA35D2 /* TabBarViewController.swift */; };
+		69DE751B1CA7CF2900AA35D2 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE751A1CA7CF2900AA35D2 /* PreferencesViewController.swift */; };
+		69DE751D1CA7CF4200AA35D2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE751C1CA7CF4200AA35D2 /* ProfileViewController.swift */; };
+		69DE751F1CA7CF5600AA35D2 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE751E1CA7CF5600AA35D2 /* AddEventViewController.swift */; };
+		69DE75211CA7CF6900AA35D2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE75201CA7CF6900AA35D2 /* CalendarViewController.swift */; };
+		69FC06861CB4EB8600BED317 /* ProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC06851CB4EB8600BED317 /* ProfileButton.swift */; };
+		887E8CA110D5C3A1A0A963DB /* Pods_MetsteriosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024C16154C8235F0710EBF0E /* Pods_MetsteriosUITests.framework */; };
+		C0616BE2FB87AE73DEEFC4D8 /* Pods_MetsteriosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6107ABB6EBFBE19F7DBD74 /* Pods_MetsteriosTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69DE74FC1CA7CC0600AA35D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69DE74DF1CA7CC0600AA35D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DE74E61CA7CC0600AA35D2;
+			remoteInfo = Metsterios;
+		};
+		69DE75071CA7CC0600AA35D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69DE74DF1CA7CC0600AA35D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DE74E61CA7CC0600AA35D2;
+			remoteInfo = Metsterios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024C16154C8235F0710EBF0E /* Pods_MetsteriosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetsteriosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1C5032C8DCC9059C87B7EA /* Pods-MetsteriosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetsteriosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetsteriosUITests/Pods-MetsteriosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		16ACE2C98552AF71B1E74353 /* Pods-Metsterios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metsterios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Metsterios/Pods-Metsterios.debug.xcconfig"; sourceTree = "<group>"; };
+		54F889C4A320D404C6808342 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570048B11CE5671000CCC971 /* MapviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapviewTableViewCell.swift; sourceTree = "<group>"; };
+		5747C4A11CCC08AC0031F541 /* Logoutbutton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logoutbutton.swift; sourceTree = "<group>"; };
+		5747C4A31CCC0F9B0031F541 /* EventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventViewController.xib; sourceTree = "<group>"; };
+		5747C4A51CCC13720031F541 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		5747C4A91CCC20CE0031F541 /* Eventinfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eventinfo.swift; sourceTree = "<group>"; };
+		5747C4AB1CCC4DCA0031F541 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		574811411CD1C7AC00CC8F25 /* SearchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
+		576AEB6D1CCEF48600D74F04 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		57C3A0AD1CC2D81500D5E335 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		57C3A0AE1CC2D81500D5E335 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		57DA91ED1CC754670021834A /* userevents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userevents.swift; sourceTree = "<group>"; };
+		57EFBA751CE03F3200AA8E59 /* findpeopleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = findpeopleButton.swift; sourceTree = "<group>"; };
+		57EFBA771CE03F4F00AA8E59 /* findplacesButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = findplacesButton.swift; sourceTree = "<group>"; };
+		690288701CA7F2F2009C5B16 /* MainTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTextField.swift; sourceTree = "<group>"; };
+		690288721CA7F7F9009C5B16 /* SubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		690288741CA87F48009C5B16 /* MainLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLabel.swift; sourceTree = "<group>"; };
+		6929DB5F1CAC6ECB00867BE3 /* SelectionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
+		695AEE751CAE1325006B4D6D /* RequestInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestInfo.swift; sourceTree = "<group>"; };
+		6964A9691CBB04190090EC4C /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		6964A96B1CBB230C0090EC4C /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		6964A96D1CBB43860090EC4C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		69796BA11CAE416500A6378B /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		69796BA51CAFBF2300A6378B /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		69DE74E71CA7CC0600AA35D2 /* Metsterios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metsterios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DE74EA1CA7CC0600AA35D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69DE74EC1CA7CC0600AA35D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		69DE74EF1CA7CC0600AA35D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69DE74F11CA7CC0600AA35D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69DE74F41CA7CC0600AA35D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69DE74F61CA7CC0600AA35D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DE74FB1CA7CC0600AA35D2 /* MetsteriosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetsteriosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DE74FF1CA7CC0600AA35D2 /* MetsteriosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetsteriosTests.swift; sourceTree = "<group>"; };
+		69DE75011CA7CC0600AA35D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DE75061CA7CC0600AA35D2 /* MetsteriosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetsteriosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DE750A1CA7CC0600AA35D2 /* MetsteriosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetsteriosUITests.swift; sourceTree = "<group>"; };
+		69DE750C1CA7CC0600AA35D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DE75181CA7CDC700AA35D2 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		69DE751A1CA7CF2900AA35D2 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		69DE751C1CA7CF4200AA35D2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		69DE751E1CA7CF5600AA35D2 /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		69DE75201CA7CF6900AA35D2 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		69FC06851CB4EB8600BED317 /* ProfileButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileButton.swift; sourceTree = "<group>"; };
+		6F6107ABB6EBFBE19F7DBD74 /* Pods_MetsteriosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetsteriosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8F79F37FC8E536CB47F8F6 /* Pods_Metsterios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metsterios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDCC0E9B6E2F214430B475D /* Pods-MetsteriosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetsteriosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetsteriosTests/Pods-MetsteriosTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E3DD6AD129737777C58F8CE /* Pods-Metsterios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metsterios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Metsterios/Pods-Metsterios.release.xcconfig"; sourceTree = "<group>"; };
+		E8264DBA5C37B50957511911 /* Pods-MetsteriosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetsteriosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetsteriosUITests/Pods-MetsteriosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EBD9C2FF4BEF330244C86F8D /* Pods-MetsteriosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetsteriosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetsteriosTests/Pods-MetsteriosTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69DE74E41CA7CC0600AA35D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6964A96E1CBB43860090EC4C /* MapKit.framework in Frameworks */,
+				3C423448DAE77A40B0439E3E /* Pods_Metsterios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DE74F81CA7CC0600AA35D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0616BE2FB87AE73DEEFC4D8 /* Pods_MetsteriosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DE75031CA7CC0600AA35D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887E8CA110D5C3A1A0A963DB /* Pods_MetsteriosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6467A45D282CF6BFC6C4C25A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16ACE2C98552AF71B1E74353 /* Pods-Metsterios.debug.xcconfig */,
+				8E3DD6AD129737777C58F8CE /* Pods-Metsterios.release.xcconfig */,
+				EBD9C2FF4BEF330244C86F8D /* Pods-MetsteriosTests.debug.xcconfig */,
+				7BDCC0E9B6E2F214430B475D /* Pods-MetsteriosTests.release.xcconfig */,
+				0D1C5032C8DCC9059C87B7EA /* Pods-MetsteriosUITests.debug.xcconfig */,
+				E8264DBA5C37B50957511911 /* Pods-MetsteriosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		691DEE981CAA5DAB004263F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				69DE751C1CA7CF4200AA35D2 /* ProfileViewController.swift */,
+				69DE75201CA7CF6900AA35D2 /* CalendarViewController.swift */,
+				69DE751E1CA7CF5600AA35D2 /* AddEventViewController.swift */,
+				69DE751A1CA7CF2900AA35D2 /* PreferencesViewController.swift */,
+				69DE75181CA7CDC700AA35D2 /* TabBarViewController.swift */,
+				69DE74EC1CA7CC0600AA35D2 /* LoginViewController.swift */,
+				69796BA51CAFBF2300A6378B /* BaseVC.swift */,
+				57C3A0AD1CC2D81500D5E335 /* MapViewController.swift */,
+				5747C4A51CCC13720031F541 /* EventViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		691DEE991CAA5DE4004263F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				690288701CA7F2F2009C5B16 /* MainTextField.swift */,
+				5747C4A11CCC08AC0031F541 /* Logoutbutton.swift */,
+				6929DB5F1CAC6ECB00867BE3 /* SelectionButton.swift */,
+				690288721CA7F7F9009C5B16 /* SubmitButton.swift */,
+				690288741CA87F48009C5B16 /* MainLabel.swift */,
+				69DE74F31CA7CC0600AA35D2 /* LaunchScreen.storyboard */,
+				69DE74EE1CA7CC0600AA35D2 /* Main.storyboard */,
+				57C3A0AE1CC2D81500D5E335 /* MapViewController.xib */,
+				69FC06851CB4EB8600BED317 /* ProfileButton.swift */,
+				6964A96B1CBB230C0090EC4C /* EventTableViewCell.swift */,
+				5747C4A31CCC0F9B0031F541 /* EventViewController.xib */,
+				5747C4AB1CCC4DCA0031F541 /* PlaceTableViewCell.swift */,
+				576AEB6D1CCEF48600D74F04 /* BackButton.swift */,
+				574811411CD1C7AC00CC8F25 /* SearchButton.swift */,
+				57EFBA751CE03F3200AA8E59 /* findpeopleButton.swift */,
+				57EFBA771CE03F4F00AA8E59 /* findplacesButton.swift */,
+				570048B11CE5671000CCC971 /* MapviewTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		69DE74DE1CA7CC0600AA35D2 = {
+			isa = PBXGroup;
+			children = (
+				69DE74E91CA7CC0600AA35D2 /* Metsterios */,
+				69DE74FE1CA7CC0600AA35D2 /* MetsteriosTests */,
+				69DE75091CA7CC0600AA35D2 /* MetsteriosUITests */,
+				69DE74E81CA7CC0600AA35D2 /* Products */,
+				6A6CCCC94734D0FCCDA4753A /* Frameworks */,
+				6467A45D282CF6BFC6C4C25A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		69DE74E81CA7CC0600AA35D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69DE74E71CA7CC0600AA35D2 /* Metsterios.app */,
+				69DE74FB1CA7CC0600AA35D2 /* MetsteriosTests.xctest */,
+				69DE75061CA7CC0600AA35D2 /* MetsteriosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69DE74E91CA7CC0600AA35D2 /* Metsterios */ = {
+			isa = PBXGroup;
+			children = (
+				691DEE981CAA5DAB004263F8 /* Controller */,
+				69DE74EA1CA7CC0600AA35D2 /* AppDelegate.swift */,
+				69DE74F11CA7CC0600AA35D2 /* Assets.xcassets */,
+				69DE74F61CA7CC0600AA35D2 /* Info.plist */,
+				691DEE991CAA5DE4004263F8 /* View */,
+				69796BA11CAE416500A6378B /* Users.swift */,
+				5747C4A91CCC20CE0031F541 /* Eventinfo.swift */,
+				6964A9691CBB04190090EC4C /* Place.swift */,
+				695AEE751CAE1325006B4D6D /* RequestInfo.swift */,
+				57DA91ED1CC754670021834A /* userevents.swift */,
+			);
+			path = Metsterios;
+			sourceTree = "<group>";
+		};
+		69DE74FE1CA7CC0600AA35D2 /* MetsteriosTests */ = {
+			isa = PBXGroup;
+			children = (
+				69DE74FF1CA7CC0600AA35D2 /* MetsteriosTests.swift */,
+				69DE75011CA7CC0600AA35D2 /* Info.plist */,
+			);
+			path = MetsteriosTests;
+			sourceTree = "<group>";
+		};
+		69DE75091CA7CC0600AA35D2 /* MetsteriosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69DE750A1CA7CC0600AA35D2 /* MetsteriosUITests.swift */,
+				69DE750C1CA7CC0600AA35D2 /* Info.plist */,
+			);
+			path = MetsteriosUITests;
+			sourceTree = "<group>";
+		};
+		6A6CCCC94734D0FCCDA4753A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6964A96D1CBB43860090EC4C /* MapKit.framework */,
+				54F889C4A320D404C6808342 /* Pods.framework */,
+				7A8F79F37FC8E536CB47F8F6 /* Pods_Metsterios.framework */,
+				6F6107ABB6EBFBE19F7DBD74 /* Pods_MetsteriosTests.framework */,
+				024C16154C8235F0710EBF0E /* Pods_MetsteriosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69DE74E61CA7CC0600AA35D2 /* Metsterios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DE750F1CA7CC0600AA35D2 /* Build configuration list for PBXNativeTarget "Metsterios" */;
+			buildPhases = (
+				EF62A1D9DBE81DD484B64306 /* 📦 Check Pods Manifest.lock */,
+				69DE74E31CA7CC0600AA35D2 /* Sources */,
+				69DE74E41CA7CC0600AA35D2 /* Frameworks */,
+				69DE74E51CA7CC0600AA35D2 /* Resources */,
+				874DAC7F614557B5F52C5704 /* 📦 Embed Pods Frameworks */,
+				798D8D1E1DEFE883A125D891 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Metsterios;
+			productName = Metsterios;
+			productReference = 69DE74E71CA7CC0600AA35D2 /* Metsterios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69DE74FA1CA7CC0600AA35D2 /* MetsteriosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DE75121CA7CC0600AA35D2 /* Build configuration list for PBXNativeTarget "MetsteriosTests" */;
+			buildPhases = (
+				000815A2C33F9C9CD78687D4 /* 📦 Check Pods Manifest.lock */,
+				69DE74F71CA7CC0600AA35D2 /* Sources */,
+				69DE74F81CA7CC0600AA35D2 /* Frameworks */,
+				69DE74F91CA7CC0600AA35D2 /* Resources */,
+				A434C96DFF2DC77865CBFFE3 /* 📦 Embed Pods Frameworks */,
+				C2A09E60273608B92EF7C4C8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DE74FD1CA7CC0600AA35D2 /* PBXTargetDependency */,
+			);
+			name = MetsteriosTests;
+			productName = MetsteriosTests;
+			productReference = 69DE74FB1CA7CC0600AA35D2 /* MetsteriosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69DE75051CA7CC0600AA35D2 /* MetsteriosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DE75151CA7CC0600AA35D2 /* Build configuration list for PBXNativeTarget "MetsteriosUITests" */;
+			buildPhases = (
+				4BDF3ECDCEC39D22A5AB60D5 /* 📦 Check Pods Manifest.lock */,
+				69DE75021CA7CC0600AA35D2 /* Sources */,
+				69DE75031CA7CC0600AA35D2 /* Frameworks */,
+				69DE75041CA7CC0600AA35D2 /* Resources */,
+				B9DC3D558819514A4D4AC860 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DE75081CA7CC0600AA35D2 /* PBXTargetDependency */,
+			);
+			name = MetsteriosUITests;
+			productName = MetsteriosUITests;
+			productReference = 69DE75061CA7CC0600AA35D2 /* MetsteriosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69DE74DF1CA7CC0600AA35D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chelsea Green";
+				TargetAttributes = {
+					69DE74E61CA7CC0600AA35D2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3K7QAC83B8;
+					};
+					69DE74FA1CA7CC0600AA35D2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 69DE74E61CA7CC0600AA35D2;
+					};
+					69DE75051CA7CC0600AA35D2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 69DE74E61CA7CC0600AA35D2;
+					};
+				};
+			};
+			buildConfigurationList = 69DE74E21CA7CC0600AA35D2 /* Build configuration list for PBXProject "Metsterios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69DE74DE1CA7CC0600AA35D2;
+			productRefGroup = 69DE74E81CA7CC0600AA35D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69DE74E61CA7CC0600AA35D2 /* Metsterios */,
+				69DE74FA1CA7CC0600AA35D2 /* MetsteriosTests */,
+				69DE75051CA7CC0600AA35D2 /* MetsteriosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69DE74E51CA7CC0600AA35D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DE74F51CA7CC0600AA35D2 /* LaunchScreen.storyboard in Resources */,
+				69DE74F21CA7CC0600AA35D2 /* Assets.xcassets in Resources */,
+				5747C4A41CCC0F9B0031F541 /* EventViewController.xib in Resources */,
+				69DE74F01CA7CC0600AA35D2 /* Main.storyboard in Resources */,
+				57C3A0B01CC2D81500D5E335 /* MapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DE74F91CA7CC0600AA35D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DE75041CA7CC0600AA35D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		000815A2C33F9C9CD78687D4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BDF3ECDCEC39D22A5AB60D5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		798D8D1E1DEFE883A125D891 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metsterios/Pods-Metsterios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874DAC7F614557B5F52C5704 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metsterios/Pods-Metsterios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A434C96DFF2DC77865CBFFE3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetsteriosTests/Pods-MetsteriosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9DC3D558819514A4D4AC860 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetsteriosUITests/Pods-MetsteriosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A09E60273608B92EF7C4C8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetsteriosTests/Pods-MetsteriosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF62A1D9DBE81DD484B64306 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69DE74E31CA7CC0600AA35D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6964A96C1CBB230C0090EC4C /* EventTableViewCell.swift in Sources */,
+				57EFBA761CE03F3200AA8E59 /* findpeopleButton.swift in Sources */,
+				69DE74ED1CA7CC0600AA35D2 /* LoginViewController.swift in Sources */,
+				5747C4A61CCC13720031F541 /* EventViewController.swift in Sources */,
+				69796BA61CAFBF2300A6378B /* BaseVC.swift in Sources */,
+				570048B21CE5671000CCC971 /* MapviewTableViewCell.swift in Sources */,
+				690288751CA87F48009C5B16 /* MainLabel.swift in Sources */,
+				574811421CD1C7AC00CC8F25 /* SearchButton.swift in Sources */,
+				69DE751F1CA7CF5600AA35D2 /* AddEventViewController.swift in Sources */,
+				57EFBA781CE03F4F00AA8E59 /* findplacesButton.swift in Sources */,
+				695AEE761CAE1325006B4D6D /* RequestInfo.swift in Sources */,
+				69DE75191CA7CDC700AA35D2 /* TabBarViewController.swift in Sources */,
+				576AEB6E1CCEF48600D74F04 /* BackButton.swift in Sources */,
+				690288731CA7F7F9009C5B16 /* SubmitButton.swift in Sources */,
+				69DE751D1CA7CF4200AA35D2 /* ProfileViewController.swift in Sources */,
+				5747C4AA1CCC20CE0031F541 /* Eventinfo.swift in Sources */,
+				69796BA21CAE416500A6378B /* Users.swift in Sources */,
+				6964A96A1CBB04190090EC4C /* Place.swift in Sources */,
+				69DE74EB1CA7CC0600AA35D2 /* AppDelegate.swift in Sources */,
+				690288711CA7F2F2009C5B16 /* MainTextField.swift in Sources */,
+				57C3A0AF1CC2D81500D5E335 /* MapViewController.swift in Sources */,
+				5747C4AC1CCC4DCA0031F541 /* PlaceTableViewCell.swift in Sources */,
+				69FC06861CB4EB8600BED317 /* ProfileButton.swift in Sources */,
+				6929DB601CAC6ECB00867BE3 /* SelectionButton.swift in Sources */,
+				57DA91EE1CC754670021834A /* userevents.swift in Sources */,
+				69DE75211CA7CF6900AA35D2 /* CalendarViewController.swift in Sources */,
+				69DE751B1CA7CF2900AA35D2 /* PreferencesViewController.swift in Sources */,
+				5747C4A21CCC08AC0031F541 /* Logoutbutton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DE74F71CA7CC0600AA35D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DE75001CA7CC0600AA35D2 /* MetsteriosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DE75021CA7CC0600AA35D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DE750B1CA7CC0600AA35D2 /* MetsteriosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69DE74FD1CA7CC0600AA35D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69DE74E61CA7CC0600AA35D2 /* Metsterios */;
+			targetProxy = 69DE74FC1CA7CC0600AA35D2 /* PBXContainerItemProxy */;
+		};
+		69DE75081CA7CC0600AA35D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69DE74E61CA7CC0600AA35D2 /* Metsterios */;
+			targetProxy = 69DE75071CA7CC0600AA35D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69DE74EE1CA7CC0600AA35D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DE74EF1CA7CC0600AA35D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69DE74F31CA7CC0600AA35D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DE74F41CA7CC0600AA35D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69DE750D1CA7CC0600AA35D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69DE750E1CA7CC0600AA35D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69DE75101CA7CC0600AA35D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16ACE2C98552AF71B1E74353 /* Pods-Metsterios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Metsterios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Firebase",
+					"$(PROJECT_DIR)/Pods/FBSDKCoreKit",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelseagreen.Metsterios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69DE75111CA7CC0600AA35D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3DD6AD129737777C58F8CE /* Pods-Metsterios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Metsterios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Firebase",
+					"$(PROJECT_DIR)/Pods/FBSDKCoreKit",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelseagreen.Metsterios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		69DE75131CA7CC0600AA35D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD9C2FF4BEF330244C86F8D /* Pods-MetsteriosTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MetsteriosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelseagreen.MetsteriosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metsterios.app/Metsterios";
+			};
+			name = Debug;
+		};
+		69DE75141CA7CC0600AA35D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDCC0E9B6E2F214430B475D /* Pods-MetsteriosTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MetsteriosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelseagreen.MetsteriosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metsterios.app/Metsterios";
+			};
+			name = Release;
+		};
+		69DE75161CA7CC0600AA35D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1C5032C8DCC9059C87B7EA /* Pods-MetsteriosUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MetsteriosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelseagreen.MetsteriosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Metsterios;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		69DE75171CA7CC0600AA35D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8264DBA5C37B50957511911 /* Pods-MetsteriosUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MetsteriosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelseagreen.MetsteriosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Metsterios;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69DE74E21CA7CC0600AA35D2 /* Build configuration list for PBXProject "Metsterios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DE750D1CA7CC0600AA35D2 /* Debug */,
+				69DE750E1CA7CC0600AA35D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DE750F1CA7CC0600AA35D2 /* Build configuration list for PBXNativeTarget "Metsterios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DE75101CA7CC0600AA35D2 /* Debug */,
+				69DE75111CA7CC0600AA35D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DE75121CA7CC0600AA35D2 /* Build configuration list for PBXNativeTarget "MetsteriosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DE75131CA7CC0600AA35D2 /* Debug */,
+				69DE75141CA7CC0600AA35D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DE75151CA7CC0600AA35D2 /* Build configuration list for PBXNativeTarget "MetsteriosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DE75161CA7CC0600AA35D2 /* Debug */,
+				69DE75171CA7CC0600AA35D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69DE74DF1CA7CC0600AA35D2 /* Project object */;
+}
